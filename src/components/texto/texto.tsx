@@ -1,4 +1,3 @@
-import React from 'react'
 import { Content, Container } from './styles'
 import { NavLink } from 'react-router-dom'
 

@@ -1,16 +1,23 @@
-
-
 import HiBabe from './components/hi-babe/hi-babe'
+import OurThings from './components/our-things/our-things';
+import Prints from './components/prints/prints';
+import Texto from './components/texto/texto';
 import GlobalStyle from './global-style'
-import Home from './pages/home'
+import { BrowserRouter, Route,  Routes } from 'react-router-dom'
+
 
 function App() {
 
   return (
-    <>
+    <BrowserRouter  basename={process.env.PUBLIC_URL}>
+      <Routes>
+        <Route path={'/'} element={<HiBabe />}/>
+        <Route path={'/our-things'} element={<OurThings />}/>
+        <Route path={'/text'} element={<Texto />}/>
+        <Route path={'/prints'} element={<Prints />}/>
+      </Routes>
       <GlobalStyle />
-      <HiBabe />
-    </>
+    </BrowserRouter>
   )
 }
 

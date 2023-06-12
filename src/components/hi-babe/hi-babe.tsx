@@ -1,6 +1,4 @@
-import { useEffect, useRef, useState } from "react";
 import { MdOutlineEmail } from "react-icons/md";
-import { Link } from 'react-router-dom';
 import { Content, Footer, FooterBtnClose, Modal, Wrapper } from './styles';
 import { NavLink } from "react-router-dom";
 
