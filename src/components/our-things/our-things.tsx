@@ -7,21 +7,19 @@ const OurThings = () => {
       <Content>
         <h1>Olá, gatinho</h1>
         <p>
-          Aqui eu to deixando os prints mais fofos das nossas conversas,
-          Mas você pode ir diretamente para a parte onde eu faço um texto super vergonhoso me declarando..
-          Onde vc quer ir?
+          Aqui tem alguns prints das nossas conversas que eu sou apaixonada até hoje,
+          Mas você também pode ir diretamente para a parte onde eu faço um texto super vergonhoso me declarando..
+          (Depois eu vou colocar as minhas músicas e as nossas fotos, mas só no próximo update)
+          E agora, onde vc quer ir?
         </p>
         <div>
-        <NavLink to={'/texto'}>
+          <NavLink to={'/text'}>
             <button>Texto</button>
           </NavLink>
           <NavLink to={'/prints'}>
             <button>Prints</button>
           </NavLink>
         </div>
-        <ul>
-
-        </ul>
       </Content>
     </Container>
   )

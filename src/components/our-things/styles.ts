@@ -1,18 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: #1c0f13;
   color: #1c0f13;
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
   h1 {
-    font-size: 1.5rem;
+    font-size: xx-large;
     color: #c70404;
     margin: 0 0 1rem 0;
     font-weight: 700;
@@ -20,6 +17,7 @@ export const Container = styled.div`
   }
   button {
     padding: 1rem 1.5rem;
+    margin: 1rem 0 0 0;
     border: none;
     margin: 0 .5rem 0 0;
     background-color: #c70404;
@@ -32,18 +30,28 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  background-color: #F7F7FF;
+  background-color: #EFE9E7;
   margin: 2rem 0 0 0;
   border-radius: 8px;
-  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 45%;
+  width: 60%;
+  padding: 2rem;
   p {
-    width: 90%;
     text-align: center;
-    margin: 0 0 1.3rem 0;
+    margin: 1rem 0 2rem 0;
+    font-size: large;
+  }
+  @media (max-width: 767px) {
+    margin: 0;
+    width: 90%;
+    p {
+      font-size: normal;
+    }
+    div{
+      display: flex;
+    }
   }
 `

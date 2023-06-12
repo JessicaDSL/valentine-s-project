@@ -1,18 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: #1c0f13;
   color: #1c0f13;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   h1 {
-    font-size: 1.5rem;
     color: #c70404;
     margin: 0 0 1rem 0;
     font-weight: 700;
@@ -20,8 +18,9 @@ export const Container = styled.div`
   }
   button {
     padding: 1rem 1.5rem;
+    margin: 0 0 2rem 0;
     border: none;
-    margin: 0 .5rem 0 0;
+    margin: 0 0 2rem 0;
     background-color: #c70404;
     color: #F7F7FF;
     border-radius: 6px;
