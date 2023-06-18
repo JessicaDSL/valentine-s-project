@@ -8,11 +8,15 @@ import { BrowserRouter, Route,  Routes } from 'react-router-dom'
 
 function App() {
 
+  const password = 'baba'
+
+  
+
   return (
     <BrowserRouter >
       <Routes>
         <Route path={'/'} element={<HiBabe />}/>
-        <Route path={'/our-things'} element={<OurThings />}/>
+        <Route path={'/>our-things'} element={<OurThings />}/>
         <Route path={'/text'} element={<Texto />}/>
         <Route path={'/prints'} element={<Prints />}/>
       </Routes>
