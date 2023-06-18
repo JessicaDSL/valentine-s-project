@@ -11,6 +11,7 @@ const OurThings = () => {
           Mas você também pode ir diretamente para a parte onde eu faço um texto super vergonhoso me declarando..
           (Depois eu vou colocar as minhas músicas e as nossas fotos, mas só no próximo update)
           E agora, onde vc quer ir?
+          Só pra constar aqui também, eu te amo mais meu bem..
         </p>
         <div>
           <NavLink to={'/text'}>
